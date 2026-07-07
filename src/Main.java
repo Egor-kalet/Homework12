@@ -6,7 +6,7 @@ public class Main {
         Book mortvyyeDushi = new Book("Мёртвые души", gogol, 1842);
 
         System.out.println(pushkin.getFirstName() + " " + pushkin.getSecondName());
-        System.out.println(gogol.getFirstName() + " " + pushkin.getSecondName());
+        System.out.println(gogol.getFirstName() + " " + gogol.getSecondName());
 
         System.out.println(evgenyOnegin.getBookName() + " " + evgenyOnegin.getAuthor().getFirstName() + " " + evgenyOnegin.getAuthor().getSecondName() + " " + evgenyOnegin.getPublishingYear());
         System.out.println(mortvyyeDushi.getBookName() + " " + mortvyyeDushi.getAuthor().getFirstName() + " " + mortvyyeDushi.getAuthor().getSecondName() + " " + mortvyyeDushi.getPublishingYear());
